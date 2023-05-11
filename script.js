@@ -102,7 +102,6 @@ buttonGeral.forEach((event, index)=>{
 
 
 
-
 function showLista(lista, buttom = "all"){
     lista.forEach((item)=>{
         item.classList.remove('ativo');
