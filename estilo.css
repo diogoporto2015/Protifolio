@@ -776,7 +776,7 @@ main .sobre {
 
 .projects_armazenamento ul li.ativo {
     display: block;
-    animation: animarImagemButtom 2s ease-in-out forwards;
+    animation: animarImagemButtom .2s ease-in-out forwards;
 }
 
 .projects_armazenamento ul li img {
@@ -860,3 +860,4 @@ footer .footer_comercial {
     font-size: 1.5rem;
     font-family: 'Poppins';
 }
+
