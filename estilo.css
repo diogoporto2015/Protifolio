@@ -729,6 +729,14 @@ main .sobre {
         justify-self: center;
         grid-column: 1/-1;
     }
+
+    .projects .projects_armazenamento ul {
+        text-align: center;
+        grid-template-columns: 1fr;
+        justify-self: center;
+        grid-column: 1/-1;
+
+    }
 }
 
 .projects {
@@ -868,4 +876,3 @@ footer .footer_comercial {
     font-size: 1.5rem;
     font-family: 'Poppins';
 }
-
