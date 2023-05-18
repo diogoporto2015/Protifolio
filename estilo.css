@@ -732,7 +732,7 @@ main .sobre {
 
     .projects .projects_armazenamento ul {
         text-align: center;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         justify-self: center;
         grid-column: 1/-1;
 
