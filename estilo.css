@@ -283,13 +283,15 @@ main .sobre {
 @media(max-width: 992px){
     .section-div img {
         display: none;
+        justify-self: center;
+    
     }
 
     .section-div {
         background-image: url(diogo.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;        
+        background-position: center;       
     }
 
     header {
@@ -766,7 +768,6 @@ main .sobre {
     display: grid;
     margin-top: 40px;
     gap: 20px;
-    
     grid-template-columns: repeat(4, 1fr);
 }
 
