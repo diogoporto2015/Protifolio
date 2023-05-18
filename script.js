@@ -104,17 +104,17 @@ function listar(lista, buttom = "all"){
     lista.forEach((item)=>{
         item.classList.remove('ativo');
     })
-    if(buttom == 'design'){
+    if(buttom == 'pythom'){
         lista[0].classList.add('ativo');
         lista[1].classList.add('ativo');
     }
 
     
-    if(buttom == 'graphic'){
+    if(buttom == 'javaScript'){
         lista[2].classList.add('ativo');
         lista[3].classList.add('ativo');
     }
-    if(buttom == 'website'){
+    if(buttom == 'nodejs'){
         lista[4].classList.add('ativo');
         lista[5].classList.add('ativo');
         lista[6].classList.add('ativo');
@@ -140,16 +140,16 @@ buttonGeral.forEach((item)=>{
             listar(listaALL);
         }
 
-        if(currentButton.classList.contains('design')){
-            listar(listaALL, "design");
+        if(currentButton.classList.contains('pythom')){
+            listar(listaALL, "pythom");
         }
 
-        if(currentButton.classList.contains('graphic')){
-            listar(listaALL, "graphic");
+        if(currentButton.classList.contains('javaScript')){
+            listar(listaALL, "javaScript");
         }
 
-        if(currentButton.classList.contains('website')){
-            listar(listaALL, "website");
+        if(currentButton.classList.contains('nodejs')){
+            listar(listaALL, "nodejs");
         }
 
         if(currentButton.classList.contains('all')){
