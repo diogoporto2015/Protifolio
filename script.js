@@ -108,8 +108,6 @@ function listar(lista, buttom = "all"){
         lista[0].classList.add('ativo');
         lista[1].classList.add('ativo');
     }
-
-    
     if(buttom == 'javaScript'){
         lista[2].classList.add('ativo');
         lista[3].classList.add('ativo');
@@ -150,10 +148,6 @@ buttonGeral.forEach((item)=>{
 
         if(currentButton.classList.contains('nodejs')){
             listar(listaALL, "nodejs");
-        }
-
-        if(currentButton.classList.contains('all')){
-            listar(listaALL, "all");
         }
 
     })
