@@ -102,7 +102,7 @@ buttonGeral.forEach((event, index)=>{
 
 
 
-function showLista(lista, buttom = "all"){
+function Listar(lista, buttom = "all"){
     lista.forEach((item)=>{
         item.classList.remove('ativo');
     })
@@ -141,23 +141,23 @@ buttonGeral.forEach((item)=>{
     item.addEventListener('click', (e)=>{
         let Button = e.target;
         if(Button.classList.contains('all')){
-            showLista(listaALL);
+            Listar(listaALL);
         }
 
         if(Button.classList.contains('pythom')){
-            showLista(listaALL, "pythom");
+            Listar(listaALL, "pythom");
         }
 
         if(Button.classList.contains('javaScript')){
-            showLista(listaALL, "javaScript");
+            Listar(listaALL, "javaScript");
         }
 
         if(Button.classList.contains('nodejs')){
-            showLista(listaALL, "nodejs");
+            Listar(listaALL, "nodejs");
         }
         
         if(Button.classList.contains('all')){
-            showLista(listaALL, "all");
+            Listar(listaALL, "all");
         }
         
 
