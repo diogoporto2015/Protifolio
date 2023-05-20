@@ -82,7 +82,7 @@ sobremin();
 
 
 
-const listaALL = document.querySelectorAll('.projects_armazenamento ul li');
+const listaALL = document.querySelectorAll('div.projects_armazenamento ul li');
 const buttonGeral = document.querySelectorAll('.projects_models ul li');
 const buttonAll = document.querySelectorAll('.projects_models .all');
 
