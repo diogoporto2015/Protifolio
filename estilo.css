@@ -779,7 +779,7 @@ main .sobre {
 
 .projects_armazenamento ul li.ativo {
     display: block;
-    animation: animarImagemButtom .2s ease-in-out forwards;
+    animation: animarImagemButtom .9s ease-in-out forwards;
 }
 
 .projects_armazenamento ul li img {
