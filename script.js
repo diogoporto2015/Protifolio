@@ -19,7 +19,7 @@ escrevendoLetra()
 
 function menuMobol(){
     const ativaMenu = document.querySelector('.fa-bars');
-    const navMenu =document.querySelector('header .navegacao-primaria')
+    const navMenu =document.querySelector('header .navegacao-primaria ul')
 
     ativaMenu.addEventListener('click', ()=>{
         ativaMenu.classList.toggle('fa-x')

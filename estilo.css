@@ -13,6 +13,7 @@ body {
     background-color: #000;
     max-width: 1200px;
     margin: 0 auto;
+    padding-top: 95px;
 }
 
 /* HEADER */
@@ -23,8 +24,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    right: 0px;
+    
 }
-
 
 header h1 {
     color: #dc3545;
@@ -42,6 +47,7 @@ header .navegacao-primaria {
 }
 
 header .navegacao-primaria li a {
+    padding: 10px;
     color: #fff;
     width: 0px;
     height: 0px;
@@ -65,6 +71,7 @@ header .navegacao-primaria li a:hover::after{
 }
 
 /* DOWNLOAD CV SEÇÂO*/
+
 
 .section-div {
     animation: inicializar .7s forwards;
@@ -307,6 +314,7 @@ main .sobre {
     header i {
         color: #f7f7f7;
         font-size: 3rem;
+        margin-left: none;
     }
 
     header .navegacao-primaria.ativado {
@@ -320,7 +328,7 @@ main .sobre {
         font-size: 1.6rem;
         font-weight: bold;
         border-radius: 0 0 4px 4px;
-        right: 20px;
+        right: 10px;
         animation: sobeSecao .8s ease-in-out forwards;
     }
 }
