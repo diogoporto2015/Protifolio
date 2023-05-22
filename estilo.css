@@ -13,7 +13,6 @@ body {
     background-color: #000;
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 95px;
 }
 
 /* HEADER */
@@ -24,11 +23,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    right: 0px;
-    
 }
 
 header h1 {
@@ -292,7 +286,6 @@ main .sobre {
     .section-div img {
         display: none;
         justify-self: center;
-    
     }
 
     .section-div {
