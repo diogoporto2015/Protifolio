@@ -100,10 +100,9 @@ header .navegacao-primaria li a:hover::after{
 .section-div div a {
     justify-self: start;
     color: #fff;
-    padding: 15px 50px;
+    padding: 15px 40px;
     border-radius: 5px;
     border: 2px solid white;
-    text-align: center;
 }
 
 .section-div img{
@@ -326,14 +325,6 @@ main .sobre {
         animation: sobeSecao .8s ease-in-out forwards;
     }
 
-    .section-div div a {
-        justify-self: start;
-        color: #fff;
-        padding: 15px 60px;
-        border-radius: 5px;
-        border: 2px solid white;
-    }
-
 }
 
 
@@ -347,15 +338,19 @@ main .sobre {
         grid-column: 1/-1;
     }
 
-    .projects_armazenamento ul li {
-        grid-column: 1/-1;
-        margin: 0px;
+    .projects_models ul li {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: -10px;
     }
 
-    .projects_armazenamento ul li video {
-        margin-left: 10px;
-        width: 96%;
+    .projects_armazenamento ul li {
+        grid-template-columns: 1fr;
+        grid-column: 1/-1;       
+        width: 90%;
     }
+
+    
 }
 
 
@@ -825,11 +820,10 @@ main .sobre {
     background-color: #222;
     text-decoration: none;
     justify-self: center;
-    padding: 20px 60px;
+    padding: 20px 40px;
     border: 1px solid #333;
     color: #707070;
     margin-top: 40px;
-    text-align: center;
 }
 
 @keyframes animarImagemButtom {
