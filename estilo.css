@@ -347,10 +347,13 @@ main .sobre {
     .projects_armazenamento ul li {
         grid-template-columns: 1fr;
         grid-column: 1/-1;       
-        width: 90%;
+        margin: 2px;
     }
 
-    
+    .projects_armazenamento video {
+        width: 90%;
+        margin-left: 20px;
+    }
 }
 
 
