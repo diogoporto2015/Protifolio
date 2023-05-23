@@ -325,7 +325,10 @@ main .sobre {
         animation: sobeSecao .8s ease-in-out forwards;
     }
 
-    
+    section .projects_armazenamento {
+        
+        justify-self: center;
+    }
 }
 
 
@@ -339,19 +342,9 @@ main .sobre {
         grid-column: 1/-1;
     }
 
-    .projects_models ul li {
-        display: grid;
-        grid-template-columns: 1fr;
-       
-        align-items: center;
-        margin: -10px;
-    }
-
     .projects_armazenamento ul li {
-        grid-template-columns: 1fr;
         grid-column: 1/-1;
-        justify-self: center;
-        width: 100%;
+        margin: 0px;
     }
 
     
