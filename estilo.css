@@ -103,6 +103,7 @@ header .navegacao-primaria li a:hover::after{
     padding: 15px 40px;
     border-radius: 5px;
     border: 2px solid white;
+    text-align: center;
 }
 
 .section-div img{
