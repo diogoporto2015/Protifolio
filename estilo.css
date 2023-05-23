@@ -341,7 +341,7 @@ main .sobre {
 
     .projects_models ul li {
         display: grid;
-        grid-template-columns: 1f;
+        grid-template-columns: 1fr ;
         grid-column: 1/-1;
     }
 
