@@ -347,10 +347,11 @@ main .sobre {
         margin: -10px;
     }
 
-    .projects_armazenamento {
-        
+    .projects_armazenamento ul li {
+        grid-template-columns: 1fr 1fr;
+        grid-column: 1/-1;
         justify-self: center;
-        width: 110%;
+        
     }
 }
 
