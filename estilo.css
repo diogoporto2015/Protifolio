@@ -344,7 +344,7 @@ main .sobre {
         grid-template-columns: 1fr 1fr;
         grid-column: 1/-1;
         align-items: center;
-        margin: -15px;
+        margin: -10px;
     }
 
     .projects_armazenamento {
