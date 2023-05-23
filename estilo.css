@@ -347,7 +347,9 @@ main .sobre {
         margin: 0px;
     }
 
-    
+    .projects_armazenamento ul li video {
+        margin-left: 2px;
+    }
 }
 
 
