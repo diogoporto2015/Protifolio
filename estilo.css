@@ -339,16 +339,18 @@ main .sobre {
         grid-column: 1/-1;
     }
 
-    .projects_models {
-        gap: 100px;
-        justify-self: center;
-        width: 80%;
+    .projects_models ul li {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column: 1/-1;
+        align-items: center;
+        margin: -15px;
     }
 
     .projects_armazenamento {
-        gap: 100px;
+        
         justify-self: center;
-        width: 80%;
+        width: 110%;
     }
 }
 
