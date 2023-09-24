@@ -121,6 +121,11 @@ function listar(lista, buttom = "all"){
         lista[7].classList.add('ativo');
     }
 
+    if(buttom == 'mysql_1'){
+        lista[8].classList.add('ativo');
+        lista[9].classList.add('ativo');
+    }
+
     if(buttom == 'all'){
         lista[0].classList.add('ativo');
         lista[1].classList.add('ativo');
@@ -130,6 +135,8 @@ function listar(lista, buttom = "all"){
         lista[5].classList.add('ativo');
         lista[6].classList.add('ativo');
         lista[7].classList.add('ativo');
+        lista[8].classList.add('ativo');
+        lista[9].classList.add('ativo');
     }
 }
 
@@ -150,6 +157,10 @@ buttonGeral.forEach((item)=>{
 
         if(currentButton.classList.contains('nodejs')){
             listar(listaALL, "nodejs");
+        }
+
+        if(currentButton.classList.contains('mysql_1')){
+            listar(listaALL, "mysql_1");
         }
 
         if(currentButton.classList.contains('all')){
