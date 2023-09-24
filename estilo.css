@@ -341,8 +341,9 @@ main .sobre {
 
     .projects_models ul li {
         display: grid;
-        grid-template-columns: 1fr;
-        margin: -10px;
+        grid-template-columns: r;
+        
+        margin: -15px;
     }
 
     .projects_armazenamento ul li {
