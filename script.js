@@ -109,21 +109,16 @@ function listar(lista, buttom = "all"){
         lista[1].classList.add('ativo');
     }
 
-    
-    if(buttom == 'javaScript'){
+    if(buttom == 'nodejs'){
         lista[2].classList.add('ativo');
         lista[3].classList.add('ativo');
-    }
-    if(buttom == 'nodejs'){
         lista[4].classList.add('ativo');
         lista[5].classList.add('ativo');
-        lista[6].classList.add('ativo');
-        lista[7].classList.add('ativo');
     }
 
     if(buttom == 'mysql_1'){
-        lista[8].classList.add('ativo');
-        lista[9].classList.add('ativo');
+        lista[6].classList.add('ativo');
+        lista[7].classList.add('ativo');
     }
 
     if(buttom == 'all'){
@@ -149,10 +144,6 @@ buttonGeral.forEach((item)=>{
 
         if(currentButton.classList.contains('pythom')){
             listar(listaALL, "pythom");
-        }
-
-        if(currentButton.classList.contains('javaScript')){
-            listar(listaALL, "javaScript");
         }
 
         if(currentButton.classList.contains('nodejs')){
